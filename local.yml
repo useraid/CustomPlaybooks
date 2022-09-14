@@ -10,6 +10,7 @@
         - vlc
         - gnome-tweak-tool
         - gdebi
+        - plank
         - gnome-shell-extension-manager
         - curl
         - thefuck

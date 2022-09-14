@@ -1,0 +1,17 @@
+---
+- hosts: localhost
+  connection: local
+  become: true
+
+  tasks:
+  - name: Installing Packages
+    package:
+      name: 
+        - vlc
+        - gnome-tweak-tool
+        - gdebi
+        - gnome-shell-extension-manager
+        - curl
+        - thefuck
+        - python3-psutil
+        - dconf-cli
